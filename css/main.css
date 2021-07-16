@@ -9,6 +9,8 @@ html {
 body {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  color: #222
   line-height: 1.5;
 }
 
@@ -34,9 +36,27 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
 figcaption {
-  font-size: 1.125rem;
   font-style: italic;
+}
+
+.germ {
+  font-size: 1.5rem;
+  font-weight: bold;
   font-family: "PT Serif", serif;
   color: #222;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic
+}
+
+blockquote footer {
+  font-size: 0.8rem;
 }
